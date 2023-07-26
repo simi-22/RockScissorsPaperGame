@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RockScissorsPaperGame/static/css/main.28212307.css",
+    "main.js": "/RockScissorsPaperGame/static/js/main.979a2413.js",
+    "static/js/787.3b475c90.chunk.js": "/RockScissorsPaperGame/static/js/787.3b475c90.chunk.js",
+    "index.html": "/RockScissorsPaperGame/index.html",
+    "main.28212307.css.map": "/RockScissorsPaperGame/static/css/main.28212307.css.map",
+    "main.979a2413.js.map": "/RockScissorsPaperGame/static/js/main.979a2413.js.map",
+    "787.3b475c90.chunk.js.map": "/RockScissorsPaperGame/static/js/787.3b475c90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28212307.css",
+    "static/js/main.979a2413.js"
+  ]
+}
