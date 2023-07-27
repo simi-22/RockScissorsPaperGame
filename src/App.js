@@ -61,9 +61,9 @@ function App() {
 }
   const randomChoice = () => {
     let itemArray = Object.keys(choice); //객체에 키값만 뽑아서 어레이로 만들어주는 함수
-    let randomItem = Math.floor(Math.random()*itemArray.length)
-    let final = itemArray[randomItem]
-    return choice[final]
+    let randomItem = Math.floor(Math.random()*itemArray.length);
+    let final = itemArray[randomItem];
+    return choice[final];
   }
 
   return(
