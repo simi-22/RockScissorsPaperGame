@@ -23,7 +23,7 @@ const choice = {
     img:ScissorsImg
   },
   paper:{
-    name: "paper",
+    name: "Paper",
     img:PaperImg
   }
 }
@@ -55,7 +55,7 @@ function App() {
       return computer.name === "Scissors"?"Win":"Lose";
     }else if(user.name === "Scissors"){
       return computer.name === "Paper"?"Win":"Lose";
-    }else{
+    }else if(user.name === "Paper"){
       return computer.name === "Rock"?"Win":"Lose";
   }
 }
