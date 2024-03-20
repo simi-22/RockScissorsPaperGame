@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 import Box from "./component/box";
-import RockImg from "./img/rock.jpg";
-import ScissorsImg from "./img/scissors.jpg";
-import PaperImg from "./img/paper.jpg";
+import RockImg from "./assets/rock.jpg";
+import ScissorsImg from "./assets/scissors.jpg";
+import PaperImg from "./assets/paper.jpg";
 
 //1. 박스 2개 (타이틀, 사진정보, 결과값)
 //2. 가위 바위 보 버튼이 있다.
@@ -65,9 +65,9 @@ function App() {
     let final = itemArray[randomItem];
     return choice[final];
   }
-
+  
   return(
-    <div> 
+    <div id='rsp-container'> 
       <h1>가위바위보게임</h1>
       <div className='container'>
         <Box title="You" item={userSelect} result={result}/>

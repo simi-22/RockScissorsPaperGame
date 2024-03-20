@@ -8,14 +8,21 @@
     font-family: 'TAEBAEKmilkyway'
 }
 
-
-h1{
+#rsp-container {
+    width: 100%;
+}
+#rsp-container > h1{
+    width: 100%;
     margin-top: 50px;
     text-align: center;
 }
+h1{
+    
+}
 .container{
     display: flex;
-    width: 100vw;
+    max-width: 800px;
+    margin: 0 auto;
     justify-content: center;
     padding: 20px;
     padding-top: 50px;
@@ -25,7 +32,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 500px;
+    width: 50%;
     border: 1px solid black;
     text-align: center;
 }
@@ -47,6 +54,7 @@ h1{
 }
 .box img{
     width: 100%;
+    height: 250px;
 }
 .container button{
     width: 100px;
@@ -62,6 +70,7 @@ h1{
 }
 .container button:hover {
     color: #fff;
+    transform: scale(1.1);
 }
 .container button:first-of-type{
     background-color: rgb(238, 185, 175);
@@ -84,3 +93,17 @@ h1{
 
 /* https://i.pinimg.com/564x/b3/59/59/b35959a129bcf1b3ab9a5139ed01371b.jpg */
 /* https://i.pinimg.com/564x/35/1a/7f/351a7f1e0364fc1383f49c87804fe653.jpg */
+
+
+@media  (max-width : 726px) {
+    .box img{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media  (max-width : 526px) {
+    .box img{
+        width: 100%;
+        height: 150px;
+    }
+}
