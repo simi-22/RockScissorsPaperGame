@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'TAEBAEKmilkyway'
+}
+#rsp-container {
+    width: 100%;
+}
+#rsp-container > h1{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+    
+}
+.container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+.box:nth-of-type(2){
+    margin-left: 20px;
+}
+.box h1{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.box:first-of-type h1{
+    background-color: rgb(231, 161, 231);
+    color: #fff;
+}
+.box img{
+    width: 100%;
+    height: 250px;
+}
+.container button{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.container button:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+.container button:first-of-type{
+    background-color: rgb(238, 185, 175);
+}
+.container button:nth-of-type(2){
+    background-color: rgb(191, 191, 191);
+    margin-left: 10px;
+}
+.container button:nth-of-type(3){
+    background-color: rgb(239, 234, 197);
+    margin-left: 10px;
+}
+
+
+
+.Win {background-color: rgb(206, 230, 169); border: none;}
+.lose {}
+.Tie {border: 2px dashed rgb(230, 199, 178);}
+
+
+/* https://i.pinimg.com/564x/b3/59/59/b35959a129bcf1b3ab9a5139ed01371b.jpg */
+/* https://i.pinimg.com/564x/35/1a/7f/351a7f1e0364fc1383f49c87804fe653.jpg */
+
+
+@media  (max-width : 726px) {
+    .box img{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media  (max-width : 526px) {
+    .box img{
+        width: 100%;
+        height: 150px;
+    }
+}
